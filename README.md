@@ -1,2 +1,2 @@
 # SMIP_Project
-Projeto de detecçao de buracos via python usando IAs quantizadas
+Sistema de detecção de buracos em pavimentos utilizando Python e Inteligência Artificial, com arquitetura de duas etapas: classificação de imagens por meio de um modelo quantizado TensorFlow Lite e detecção de objetos com Azure Custom Vision. O sistema realiza processamento local em tempo real, utilizando Raspberry Pi, câmera e GPS para identificar, registrar e georreferenciar irregularidades no pavimento. Os registros confirmados são armazenados e enviados automaticamente ao Google Drive.
